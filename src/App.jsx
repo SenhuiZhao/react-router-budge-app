@@ -18,6 +18,15 @@ const router = createBrowserRouter([
         element: <Dashboard />,
         loader: dashboardLoader,
       },
+      {
+        path: "logout",
+        // element: <p>logged out!</p>
+        action: logoutAction
+      },
+      {
+        path: "about",
+        element: <h1>about</h1>
+      },
     ]
   },
   {
